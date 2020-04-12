@@ -1,0 +1,171 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: drawtest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x407 /fo"Debug/drawtest.res" /i "\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\win" /d "_DEBUG" "C:\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\win\drawtest.rc"" 
+Creating temporary file "C:\DOCUME~1\WilliamK\LOCALS~1\Temp\RSP1E3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\.." /I "..\..\vstgui" /I "..\..\..\public.sdk\source\vst2.x" /I "..\..\libpng" /I "..\..\zlib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DRAWTEST_EXPORTS" /D USE_LIBPNG=1 /Fp"Debug/drawtest.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\png.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngerror.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pnggccrd.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngget.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngmem.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngpread.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngread.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngrio.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngrtran.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngrutil.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngset.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngtrans.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngvcrd.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngwio.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngwrite.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngwtran.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\libpng\pngwutil.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\adler32.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\compress.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\crc32.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\deflate.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\gzio.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\infback.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\inffast.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\inflate.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\inftrees.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\trees.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\uncompr.c"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\zlib\zutil.c"
+"C:\Work\VST SDK 2.4 (r2)\public.sdk\source\vst2.x\audioeffect.cpp"
+"C:\Work\VST SDK 2.4 (r2)\public.sdk\source\vst2.x\audioeffectx.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\aeffguieditor.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\cfileselector.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\cscrollview.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\ctabview.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\vstcontrols.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\vstgui.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\source\controlsgui.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\source\pdrawtesteditor.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\source\pdrawtesteffect.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\source\pdrawtestmain.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\source\pdrawtestview.cpp"
+"C:\Work\VST SDK 2.4 (r2)\vstgui.sf\drawtest\source\pprimitivesviews.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\WilliamK\LOCALS~1\Temp\RSP1E3.tmp" 
+Creating temporary file "C:\DOCUME~1\WilliamK\LOCALS~1\Temp\RSP1E4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/drawtest.pdb" /debug /machine:I386 /def:"..\win\drawtest.def" /out:"c:\vstplugins\vstplugins\drawtest.dll" /implib:"Debug/drawtest.lib" /pdbtype:sept 
+".\Debug\png.obj"
+".\Debug\pngerror.obj"
+".\Debug\pnggccrd.obj"
+".\Debug\pngget.obj"
+".\Debug\pngmem.obj"
+".\Debug\pngpread.obj"
+".\Debug\pngread.obj"
+".\Debug\pngrio.obj"
+".\Debug\pngrtran.obj"
+".\Debug\pngrutil.obj"
+".\Debug\pngset.obj"
+".\Debug\pngtrans.obj"
+".\Debug\pngvcrd.obj"
+".\Debug\pngwio.obj"
+".\Debug\pngwrite.obj"
+".\Debug\pngwtran.obj"
+".\Debug\pngwutil.obj"
+".\Debug\adler32.obj"
+".\Debug\compress.obj"
+".\Debug\crc32.obj"
+".\Debug\deflate.obj"
+".\Debug\gzio.obj"
+".\Debug\infback.obj"
+".\Debug\inffast.obj"
+".\Debug\inflate.obj"
+".\Debug\inftrees.obj"
+".\Debug\trees.obj"
+".\Debug\uncompr.obj"
+".\Debug\zutil.obj"
+".\Debug\audioeffect.obj"
+".\Debug\audioeffectx.obj"
+".\Debug\aeffguieditor.obj"
+".\Debug\cfileselector.obj"
+".\Debug\cscrollview.obj"
+".\Debug\ctabview.obj"
+".\Debug\vstcontrols.obj"
+".\Debug\vstgui.obj"
+".\Debug\controlsgui.obj"
+".\Debug\pdrawtesteditor.obj"
+".\Debug\pdrawtesteffect.obj"
+".\Debug\pdrawtestmain.obj"
+".\Debug\pdrawtestview.obj"
+".\Debug\pprimitivesviews.obj"
+".\Debug\drawtest.res"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\WilliamK\LOCALS~1\Temp\RSP1E4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+png.c
+pngerror.c
+pnggccrd.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+audioeffect.cpp
+audioeffectx.cpp
+aeffguieditor.cpp
+cfileselector.cpp
+C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\cfileselector.cpp(276): warning #556: a value of type "UINT_PTR={unsigned long} (__stdcall *)(HWND, UINT={unsigned int}, WPARAM={UINT={unsigned int}}, LPARAM={LONG={long}})" cannot be assigned to an entity of type "LPOFNHOOKPROC"
+      ofn.lpfnHook = SelectDirectoryHook;
+                   ^
+
+C:\Work\VST SDK 2.4 (r2)\vstgui.sf\vstgui\cfileselector.cpp(417): warning #556: a value of type "UINT_PTR={unsigned long} (__stdcall *)(HWND, UINT={unsigned int}, WPARAM={UINT={unsigned int}}, LPARAM={LONG={long}})" cannot be assigned to an entity of type "LPOFNHOOKPROC"
+     ofn.lpfnHook = WinSaveHook;
+                  ^
+
+cscrollview.cpp
+ctabview.cpp
+vstcontrols.cpp
+vstgui.cpp
+controlsgui.cpp
+pdrawtesteditor.cpp
+pdrawtesteffect.cpp
+pdrawtestmain.cpp
+pdrawtestview.cpp
+pprimitivesviews.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MICROS~2\VC98\Bin\link.exe'
+   Creating library Debug/drawtest.lib and object Debug/drawtest.exp
+
+
+
+<h3>Results</h3>
+drawtest.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
